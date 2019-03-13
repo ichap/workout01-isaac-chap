@@ -1,0 +1,18 @@
+---
+title: "data-dictionary"
+output: github_document
+---
+Column Name  | Description
+------------ | -----------------------------------------------------
+team_name    |  Name of the team the player is on.
+game_date    | Date the player played the game.
+season       | Season the game was played (in year).
+period | The period (4 periods in a basketball game) in which the shot is made.
+minutes_remaining | Minutes remaining in the period when shot is made.
+seconds_remaining | Seconds remaining in the period when shot is made.
+shot_made_flag | Indicates whether a shot was made (y) or missed (n).
+action_type | The basketball moves used by players, either to pass by defenders to gain access to the basket, or to get a clean pass to a teammate to score a two pointer or three pointer.
+shot_type | Indicates whether a shot is a 2-point field goal, or a 3-point field goal.
+shot_distance | Distance to the basket (measured in feet).
+opponent | The team name of their opponent.
+x and y | refers to the court coordinates (measured in inches) where a shot occurred 
